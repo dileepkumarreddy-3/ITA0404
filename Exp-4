@@ -1,0 +1,20 @@
+# Create a vector
+data <- c(10, 20, 30, 40, 50, 60, 70, 80)
+
+# Create a 3D array (2 rows, 2 columns, 2 tables)
+arr <- array(data,
+             dim = c(2, 2, 2),
+             dimnames = list(
+               Rows = c("R1", "R2"),
+               Columns = c("C1", "C2"),
+               Tables = c("Table1", "Table2")
+             ))
+
+# Display the array
+cat("Array:\n")
+print(arr)
+
+# Print specific elements
+cat("\nSpecific Elements:\n")
+cat("Element at R1, C2, Table1 =", arr["R1", "C2", "Table1"], "\n")
+cat("Element at R2, C1, Table2 =", arr["R2", "C1", "Table2"], "\n")
