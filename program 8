@@ -1,0 +1,2 @@
+x<-round(rnorm(100,0,1))
+table(x)
