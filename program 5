@@ -1,0 +1,3 @@
+h<-factor(c("Short","Tall","Medium","Tall"))
+x<-factor(sample(LETTERS[1:5],10,replace=TRUE))
+print(h);levels(h);table(x)
