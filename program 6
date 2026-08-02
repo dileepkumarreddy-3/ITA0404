@@ -1,0 +1,2 @@
+lst<-list(v=1:5,m=matrix(1:4,2),f=function(x)x^2)
+print(lst);lst$f(5)
