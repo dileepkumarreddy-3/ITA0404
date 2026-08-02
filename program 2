@@ -1,0 +1,4 @@
+m1<-matrix(1:20,5,4,byrow=TRUE,dimnames=list(paste0("R",1:5),paste0("C",1:4)))
+m2<-matrix(1:9,3,3,byrow=FALSE)
+m3<-matrix(1:4,2,2)
+m1;m2;m3
